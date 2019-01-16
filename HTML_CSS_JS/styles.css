@@ -1,0 +1,11 @@
+body{
+    background: rebeccapurple;
+    padding: 10px;
+}
+table{
+    background: whitesmoke;
+    border: 1px solid black
+}
+.btn-green{
+    background: burlywood
+}
