@@ -2,5 +2,7 @@ Date 17/1/2019
 
 Css -  bootstrap
 --------
-
+components -> card
 --------
+image slider below a conract form
+name email msg submit
