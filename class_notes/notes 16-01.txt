@@ -1,0 +1,127 @@
+Date : 16/01/2019
+
+mean
+m -mongo
+e express
+a angular
+n node
+---
+html 5
+--
+tag based
+<head> -  mainly for meta data
+
+---
+Visual studio code
+code.visualstudio.com
+
+ml plugin is used to create html page automaticaly
+---
+
+Git respositery
+--
+created folder deeputg in c/users/administrator
+
+link this folder to the respository
+-
+echo "# ICT-abcd-course" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/deeputg/ICT-abcd-course.git
+git push -u origin master
+-
+--
+three steps to repeate the push code to git hub
+
+change directory to my main directory and follow the steps
+
+add - syntax - git add filename (git add ./-a <to add all files>)
+commint -syntax - git commit -m "message about  push"
+push - syntax - git push -u origin master (git push -u origin branch_name)
+--
+pull master branch to local
+
+git pull origin 
+--
+create sub btanches
+-
+
+---
+
+Node js 
+--
+install nodejs lts
+nodejs org
+package managers - npm (node package manager)
+1. create a node project
+ npm init
+ after certain tests package.json creates
+
+2. run files with node server
+ -using http server (install httpserver)
+ npm install -g http-server 
+	to install locally in my project only
+	npm install --save http-server
+
+ -running the http-server
+ http-server -p port_number(eg.8080)
+
+---
+
+Visual studio code
+
+in command prompt use - code . - to open directly in visual studio code
+-----
+
+Html tags
+--
+h1
+div - division
+table
+header
+footer
+
+iput text
+input type radio
+input type checkbox
+
+<button>
+
+---
+
+task
+---
+name
+email
+phonenumber
+place
+date of birth
+user name
+password
+confirm password
+----
+
+
+
+CSS
+--
+3 types used
+-
+1.inline
+2.internal style
+3.external styling
+
+--
+CSS frameworks
+
+1. Bootstrap (introduced by twitter)
+
+2. css flexbox
+
+3. meterialize (introduced by google)
+--
+
+---
+
+Refferrences : w3schools and tutorialspoint,flat ui colors 
