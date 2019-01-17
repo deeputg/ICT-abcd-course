@@ -4,5 +4,38 @@ Css -  bootstrap
 --------
 components -> card
 --------
-image slider below a conract form
+image slider below a contact form
 name email msg submit
+---------------
+
+
+Javascript
+----------
+client side programming - runs in browser only
+
+naming rules for variables
+ combination of letters and numbers
+ should not start with number
+ underscore can be used
+
+declaration of variable 
+  datatype var name
+
+var - short for variable condidered like a datatype
+
+addition +
+difff -
+multiplication *
+div /
+exponent **
+-----------------
+
+javascript file can be run using node js
+ node filename.js
+--------------------
+
+var, const and let
+
+ var values can be change after declaration / global access
+ const -  values cannot be update after updation
+ let - same as var but do not have global scope only local scope
