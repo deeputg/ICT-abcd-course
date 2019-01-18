@@ -1,0 +1,17 @@
+date 18/01/2019
+
+--------
+Javascript
+----------
+loops
+1. entry controlled - conditions check when entering . eg. for,while
+2. exit controlled- condition check only at exit . eg. do..while
+
+//initialisation
+while loop
+while(condition){
+...
+
+//updation
+}
+-------
