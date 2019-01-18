@@ -18,11 +18,55 @@ while(condition){
 
 for loop
 ----
-
 for(initialization;condition;updation){
 }
 --------
 
-
 Nested loop
 ---------
+---------
+
+Functions
+----------
+block of statements for accomplish a specific task
+syntax : function definition
+function functionname(arguments){
+...
+}
+
+syntax : fucntion call
+functionname(argument);
+----------
+
+Array
+----
+array declararion
+var array_variable = [];
+var array_variable = new Array();
+--
+
+loop controlling statements
+1. break - this statement breaks the loop and exit from loop
+2. continue - this statement breaks only one cycle not entire loop
+--
+
+----
+string handling functions - length,
+---------
+
+validations --important
+
+pattern validarion
+eg. phone number validation
+pattern = "[6789]{1}[0-9]{9}"   {1}- fist number is from [6789], {9}-next nine from [0 to 9]
+
+
+-----------
+
+typescript - mycrosoft introduced js 
+babel - compiler - transforms typescripts to js
+------------
+
+free hosting providers
+----
+heroku.com

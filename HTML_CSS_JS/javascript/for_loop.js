@@ -10,3 +10,12 @@ for(i=1;i<=3;i++){
         console.log(j);
     }
 }
+
+//loop controlling statements
+for(i=0;i<10;i++){
+    if(i==5){
+        break;
+    }
+
+    console.log(i);
+}
