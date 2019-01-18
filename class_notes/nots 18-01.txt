@@ -15,3 +15,14 @@ while(condition){
 //updation
 }
 -------
+
+for loop
+----
+
+for(initialization;condition;updation){
+}
+--------
+
+
+Nested loop
+---------
