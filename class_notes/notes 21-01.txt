@@ -1,0 +1,16 @@
+Date 22/01/2019
+---------------------
+
+
+Python Programming
+---
+Guido van rossum - inventor
+1989
+open sourse
+object oriented
+
+Highlevel language
+interpreted - no need of compilation
+
+(features of object oriented programming --impoetant)
+---
