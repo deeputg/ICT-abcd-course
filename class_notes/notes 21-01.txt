@@ -12,5 +12,30 @@ object oriented
 Highlevel language
 interpreted - no need of compilation
 
-(features of object oriented programming --impoetant)
+(features of object oriented programming --important)
+
+applicatio of python
+-web development
+- scientific application
+- games
+- data analytics
+- image processign and computer graphics
+
+download - python.org/download
+
 ---
+- python filename.py
+- python -enter to enter the python console
+hacker earth
+hacker rank
+hour of code
+sreekanth.d@ictkerala.org
+---
+
+
+Assignment in python
+ age =48
+ou=3.14
+country ="india"
+s=y=z=100
+name,age,loc = "deepu",11,"sdf"
