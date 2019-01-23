@@ -1,0 +1,11 @@
+Date : 23/01/2019
+
+fileObj = open()
+ .read()
+.close()
+.seek(file pointer position)
+
+----
+string operations
+
+rstrip(char) - trims from the right side of "char"
