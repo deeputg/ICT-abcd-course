@@ -9,3 +9,16 @@ fileObj = open()
 string operations
 
 rstrip(char) - trims from the right side of "char"
+
+-----------------------
+
+
+Object oriented programming
+---------------------------
+self - points to the current object
+---------------------------
+
+Data anlytics
+---------------------------
+
+---------------------------
