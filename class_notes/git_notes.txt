@@ -12,9 +12,7 @@ git remote add origin https://github.com/deeputg/ICT-abcd-course.git
 git push -u origin master
 -
 --
-three steps to repeate the push code to git hub
-
-change directory to my main directory and follow the steps
+three steps to repeate the push code to git hub - change directory to my main directory and follow the steps
 
 add - syntax - git add filename (git add ./-a <to add all files>)
 commint -syntax - git commit -m "message about  push"
@@ -22,7 +20,8 @@ push - syntax - git push -u origin master (git push -u origin branch_name)
 --
 pull master branch to local
 
-git pull origin 
+git pull origin master
 --
 create sub btanches
+git checkout branch_name
 -
