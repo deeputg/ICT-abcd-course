@@ -20,5 +20,10 @@ self - points to the current object
 
 Data anlytics
 ---------------------------
+pandas package
+sudo pat-get install python-pandas
+sudo atp-get install python-pip
+
+python -m pip install matplotlib
 
 ---------------------------

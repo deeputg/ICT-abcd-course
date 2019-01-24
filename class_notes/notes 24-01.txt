@@ -1,0 +1,23 @@
+date :24/01/2019
+
+Flask
+
+what 
+when
+where
+why
+how
+
+--\
+
+
+create templates foldr
+inseide templates create html files
+inside python file import render_templates from flask 
+use remder_template(filename.html) to load html ito python file
+
+create folder css in the same directory as template
+
+sreekanth.d@ictkeral.org
+sreekanth.dhanpal
+9995806555
