@@ -26,3 +26,8 @@ no buffering -put data in chunks
 ---------------
 
 when installing a new module with npm install modulename, use an additional option --save to add that module to  package-lock.json . which is veryy usefull when deploying the app because we only need to type "npm install" to install all dependency specified in package-lock.json file instead of installing each modules.
+
+whenever encounter a .use method it executes first befor .get or .post etc.
+app.use()
+
+npm install nodemon( no need to restart server each time after updation)
