@@ -1,0 +1,28 @@
+Date : 29/01/2019
+
+crud - creation reading updation deletion
+
+
+unstructured data - eg fb comments
+
+cpu intensive application
+input intensive application - faster using node
+
+Node
+-------------
+properties
+advanced sttings
+apth variables
+environmental
+insert path variable
+
+node -v -shows the installed version of node
+
+Nodejs is a serverside platform build on  google chrome's javascript engine(v8 Engine)
+servers are normaly thread based but nodejs is event based
+cosider each request ina evented loop that can be handled simultanious request
+asynchronous and event driven
+no buffering -put data in chunks
+---------------
+
+when installing a new module with npm install modulename, use an additional option --save to add that module to  package-lock.json . which is veryy usefull when deploying the app because we only need to type "npm install" to install all dependency specified in package-lock.json file instead of installing each modules.
