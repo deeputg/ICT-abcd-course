@@ -1,0 +1,27 @@
+
+
+ejs pug etc.
+ejs
+---
+in ejs instead of res.sendFile(filename.html),we need to use res.render(filenameWithNoExtention)
+
+for passing a data form server to an ejs file
+use an extra parameter of data writen in json format along with res.render
+eg: res.render("login",{user:"deepu",id:123})
+
+
+
+how to call an external function
+----
+----
+
+install exoress apps 
+	npm install express-generator -g
+	express -v ejs myapp => -v means view - view is using ejs
+
+book
+book id
+name
+auther 
+price
+register paegcreate
