@@ -17,7 +17,7 @@ how to call an external function
 
 install exoress apps 
 	npm install express-generator -g
-	express -v ejs myapp => -v means view - view is using ejs
+	express -v ejs myapp => -v means view - view using is ejs
 install dependencies firs
 	npm install
 run express app
