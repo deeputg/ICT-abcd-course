@@ -1,0 +1,75 @@
+Mongo DB
+----
+installing mongo db
+	https://www.mongodb.com/download-center/community
+
+=> in linux use mogod to start the service
+
+1) creating a db
+	use databasename =>creation and selecting the database
+2) list datrabases
+	show dbs
+3) show current database
+	db
+4) Drop the database
+	db.dropDatabase()
+5) creating collection
+	db.createCollection("name")
+6) show collections (to view collections in this database)
+	show collections
+7) droping a collection
+	db.collection_name.drop()
+8) inserting documents to the collection
+	db.collection_name.insert({jsonKey:"jsonVakue",jsonKey2:"jsonVakue"})
+	db.collection_name.insertMany([{jsonKey:"jsonVakue"},{jsonKey:"jsonVakue"}])
+9) show all entries in a collection
+	db.collection_name.find();
+	db.collection_name.find().pretty();
+10) get first record
+	db.collection_name.find().limit(1) =>returnes first record
+	db.collection_name.find().limit(5) =>returns first 5 records
+11) conditional fetch
+	db.collection_name.find({key:"search_value"}) => search for document with key=search_value
+	db.collection_name.find({key:{$lt:search_value}}) =>key<search_value
+	$lt:
+	$gt:
+	$lte: less than or equel to
+	$gte: greater than or equel to
+	$ne: 
+	$in:
+	$nin:
+	$and:
+	$not:
+	$nor:
+	$or:
+12) projection (selecting specific fields)
+	db.collection_name.find({key:"search_value"},{neededKey1:1,neededKey2:1})
+13)Sorting
+	db.collection_name.()
+14) Regex
+15) Delete a document
+	db.collection_name.remove({})=>remove all documents form the "collection_name"
+	db.collection_name.remove({key:"search_value"})
+16) updation
+	db.collection_name.update({},{})
+
+
+
+-----------------------------------------------------------------------------------
+Nodejs database connection
+-----------------------------------------------------------------------------------
+IDE:
+Robomongo 3T
+
+
+-----------------------------------------------------------------------------------
+create a collecton with name employee
+empId Name dept sal loc
+
+hr
+it
+finance
+
+
+
+db.emp.find({dpt:{$in:["hr","it"]},sal:{$gt:8000}})
