@@ -49,7 +49,7 @@ installing mongo db
 14) Regex
 15) Delete a document
 	db.collection_name.remove({})=>remove all documents form the "collection_name"
-	db.collection_name.remove({key:"search_value"})
+	db.collection_name.remove(12:42 PM 05/02/201912:47 PM 05/02/2019)
 16) updation
 	db.collection_name.update({},{})
 

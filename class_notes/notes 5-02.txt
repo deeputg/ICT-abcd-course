@@ -1,0 +1,14 @@
+Heroku NOde js
+---------------------
+do not provice direct port in listen method
+	var port = process.env.PORT||3000
+
+initialize npm
+	npm init
+
+inside pavkage.json inside script ,add-> "start":"node app.js"
+create Procfile
+	web: node app.js
+
+always put --save when npm install
+---------------------
