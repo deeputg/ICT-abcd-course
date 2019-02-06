@@ -7,6 +7,7 @@ var bookModel = require("./model/books");
 var db = "mongodb://127.0.0.1:27017/mymongodb";
 
 var app = express();
+app.use('/images',express.static(__dirname+'/images'));
 
 mongoose.connect(db,function(err){
     if(err)console.log("Unable to connect");
