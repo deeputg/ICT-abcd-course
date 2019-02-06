@@ -7,8 +7,12 @@ initialize npm
 	npm init
 
 inside pavkage.json inside script ,add-> "start":"node app.js"
+
 create Procfile
 	web: node app.js
+
+login to heroku
+
 
 always put --save when npm install
 ---------------------

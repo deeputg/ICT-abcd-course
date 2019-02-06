@@ -1,0 +1,15 @@
+mongoose 
+
+------------------
+
+fileupload
+----------
+express-fileupload ->package
+
+req.body.fileUploadName will return the name of the file uploaded
+
+
+excluded topics from express
+----------------------------
+coockies and sessions
+middlewares
