@@ -1,0 +1,56 @@
+Angular
+----------
+sp framework - single page framework.
+
+html and typescript
+
+monst common other framworks
+react, view
+
+major verions of angular 4
+angular 1=>angular js
+angular 2 => MVC 
+angular 4 => with ngIf,ngFOr, Animation package Erc
+now angular 7
+
+component oriented architechrure
+data binding   (oneway data binding)
+
+variable diclaration in typescript
+	varname : datatype
+
+angular cli
+
+-------------------
+ng new appName
+cd appName
+ng serve
+
+creating a new component
+	ng g c componentName  => ng generate component
+
+create a new service
+	ng g s serviceName
+sercice not get updated automoatically to app.module.ts so create manually
+in app.module.js file=> import {} from serviceNameSerciePath
+ 
+
+----------------------
+e2e =>end to end testing
+
+app.module.ts is importand
+to take values from form , use a module - FormsModule from '@angular/forms'
+include FormsModule in imports:
+
+
+
+--------------------------------------------
+session storage 
+local storage
+
+----------------------------------------------
+routing
+import routermodulenroutes in app.module.ts
+setup the routing path in aop.module.ts
+use this routing path variable in modules in app.module.ts
+
